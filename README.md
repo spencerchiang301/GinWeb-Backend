@@ -11,7 +11,7 @@ Good luck!!!
 此儲存庫用於示範如何使用 golang 和 gin Web 框架作為後台系統進行開發。
 
 如何使用它，一步一步：
-1. 將儲存庫克隆到本機
+1.將儲存庫克隆到本機
 2.使用您的mysql伺服器設定並更改config/config.ini中的設置
 3.在main.go中新增路由
 4.為fishdao/fishdao.go添加功能
