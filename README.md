@@ -1,8 +1,8 @@
-This repository is used to demo how to use golang and gin web framework to development as a backedn system.
+This repository is used to demo how to use Golang and gin web framework to development as a backend system.
 
 how to use it, step by step:
-1. clone the respository into your local computer
-2. using your mysql server setting and change the setting in the config/config.ini
+1. clone the repository into your local computer
+2. Use your MySQL server setting and change the setting in the config/config.ini
 3. add routing in the main.go
 4. add functions to fishdao/fishdao.go
 5. add functions to handlers/fish.go
