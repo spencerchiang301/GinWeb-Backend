@@ -6,6 +6,7 @@ how to use it, step by step:
 3. add routing in the main.go
 4. add functions to fishdao/fishdao.go
 5. add functions to handlers/fish.go
+
    Good luck!!!
 
 此儲存庫用於示範如何使用 golang 和 gin Web 框架作為後台系統進行開發。
@@ -16,4 +17,5 @@ how to use it, step by step:
 3. 在main.go中新增路由
 4. 為fishdao/fishdao.go添加功能
 5. 在handlers/fish.go中加入函數
+
    祝你好運！
