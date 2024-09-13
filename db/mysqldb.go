@@ -26,14 +26,14 @@ func LoadDBConfig() (*DBConfig, error) {
 		return nil, err
 	}
 	dbConfig := &DBConfig{
-		UserName:     cfg.Section("database").Key("UserName").String(),
-		Password:     cfg.Section("database").Key("Password").String(),
-		Addr:         cfg.Section("database").Key("Addr").String(),
-		Port:         cfg.Section("database").Key("Port").MustInt(),
-		Database:     cfg.Section("database").Key("Database").String(),
-		MaxLifetime:  cfg.Section("database").Key("MaxLifetime").MustInt(),
-		MaxOpenConns: cfg.Section("database").Key("MaxOpenConns").MustInt(),
-		MaxIdleConns: cfg.Section("database").Key("MaxIdleConns").MustInt(),
+		UserName:     cfg.Section("MysqlDB").Key("UserName").String(),
+		Password:     cfg.Section("MysqlDB").Key("Password").String(),
+		Addr:         cfg.Section("MysqlDB").Key("Addr").String(),
+		Port:         cfg.Section("MysqlDB").Key("Port").MustInt(),
+		Database:     cfg.Section("MysqlDB").Key("Database").String(),
+		MaxLifetime:  cfg.Section("MysqlDB").Key("MaxLifetime").MustInt(),
+		MaxOpenConns: cfg.Section("MysqlDB").Key("MaxOpenConns").MustInt(),
+		MaxIdleConns: cfg.Section("MysqlDB").Key("MaxIdleConns").MustInt(),
 	}
 	return dbConfig, nil
 }
